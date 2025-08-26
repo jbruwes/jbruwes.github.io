@@ -1,12 +1,11 @@
 {
   "dependencies": {
-    "@iconify/vue": "^5.0.0",
     "@vueuse/components": "^13.7.0",
     "@vueuse/core": "^13.7.0",
     "@vueuse/shared": "^13.7.0",
-    "animate.css": "^4.1.1",
-    "element-plus": "^2.10.7",
-    "vue-i18n": "^11.1.11",
-    "hover.css": "^2.3.2"
+    "element-plus": "^2.11.1",
+    "@element-plus/icons-vue": "^2.3.2",
+    "@highlightjs/cdn-assets": "^11.11.1",
+    "@highlightjs/vue-plugin": "^2.1.0"
   }
 }
