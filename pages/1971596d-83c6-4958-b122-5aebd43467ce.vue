@@ -1,4 +1,5 @@
 <template>
+    <div class="my-4 "><el-text tag="b" size="large" class="!text-neutral-900">{{ the.title }}</el-text></div>
     <el-timeline>
         <el-timeline-item center :timestamp="new Date(lastmod).toLocaleDateString('ru-RU', options)" placement="top"
             v-for="{ title, description, lastmod, id, to } in the.$siblings.slice(2)" :key="id">

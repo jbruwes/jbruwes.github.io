@@ -1,5 +1,7 @@
 <template>
-    <RouterView></RouterView>
+    <div class="container mx-auto px-4">
+        <RouterView></RouterView>
+    </div>
     <el-backtop></el-backtop>
 </template>
 

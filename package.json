@@ -1,8 +1,8 @@
 {
   "dependencies": {
-    "@vueuse/components": "^13.7.0",
-    "@vueuse/core": "^13.7.0",
-    "@vueuse/shared": "^13.7.0",
+    "@vueuse/components": "^13.8.0",
+    "@vueuse/core": "^13.8.0",
+    "@vueuse/shared": "^13.8.0",
     "element-plus": "^2.11.1",
     "@element-plus/icons-vue": "^2.3.2",
     "@highlightjs/cdn-assets": "^11.11.1",

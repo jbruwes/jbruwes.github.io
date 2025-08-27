@@ -6,9 +6,9 @@
         "@element-plus/icons-vue": "^2.3.2",
         "@highlightjs/cdn-assets": "^11.11.1",
         "@highlightjs/vue-plugin": "^2.1.0",
-        "@vueuse/components": "^13.7.0",
-        "@vueuse/core": "^13.7.0",
-        "@vueuse/shared": "^13.7.0",
+        "@vueuse/components": "^13.8.0",
+        "@vueuse/core": "^13.8.0",
+        "@vueuse/shared": "^13.8.0",
         "element-plus": "^2.11.1",
       },
     },
@@ -64,13 +64,13 @@
 
     "@vue/shared": ["@vue/shared@3.5.19", "", {}, "sha512-IhXCOn08wgKrLQxRFKKlSacWg4Goi1BolrdEeLYn6tgHjJNXVrWJ5nzoxZqNwl5p88aLlQ8LOaoMa3AYvaKJ/Q=="],
 
-    "@vueuse/components": ["@vueuse/components@13.7.0", "", { "dependencies": { "@vueuse/core": "13.7.0", "@vueuse/shared": "13.7.0" }, "peerDependencies": { "vue": "^3.5.0" } }, "sha512-7kxKz1Uh9XSivRg1RJzmcnpjBii4nMaCt1BOkxsVz/Ot5krIugujyHQNrFVx2igKuObY3x6CJGTrWlb8303SDg=="],
+    "@vueuse/components": ["@vueuse/components@13.8.0", "", { "dependencies": { "@vueuse/core": "13.8.0", "@vueuse/shared": "13.8.0" }, "peerDependencies": { "vue": "^3.5.0" } }, "sha512-lAunbZhYdQB/eVQVJqTKTfPnyZUYgd5wgWDl6HymnM1jF1RT/lI/a2oLZNBu49Yr1cY2Eq/7jNvuZz/dMa1EIw=="],
 
-    "@vueuse/core": ["@vueuse/core@13.7.0", "", { "dependencies": { "@types/web-bluetooth": "^0.0.21", "@vueuse/metadata": "13.7.0", "@vueuse/shared": "13.7.0" }, "peerDependencies": { "vue": "^3.5.0" } }, "sha512-myagn09+c6BmS6yHc1gTwwsdZilAovHslMjyykmZH3JNyzI5HoWhv114IIdytXiPipdHJ2gDUx0PB93jRduJYg=="],
+    "@vueuse/core": ["@vueuse/core@13.8.0", "", { "dependencies": { "@types/web-bluetooth": "^0.0.21", "@vueuse/metadata": "13.8.0", "@vueuse/shared": "13.8.0" }, "peerDependencies": { "vue": "^3.5.0" } }, "sha512-rmBcgpEpxY0ZmyQQR94q1qkUcHREiLxQwNyWrtjMDipD0WTH/JBcAt0gdcn2PsH0SA76ec291cHFngmyaBhlxA=="],
 
-    "@vueuse/metadata": ["@vueuse/metadata@13.7.0", "", {}, "sha512-8okFhS/1ite8EwUdZZfvTYowNTfXmVCOrBFlA31O0HD8HKXhY+WtTRyF0LwbpJfoFPc+s9anNJIXMVrvP7UTZg=="],
+    "@vueuse/metadata": ["@vueuse/metadata@13.8.0", "", {}, "sha512-BYMp3Gp1kBUPv7AfQnJYP96mkX7g7cKdTIgwv/Jgd+pfQhz678naoZOAcknRtPLP4cFblDDW7rF4e3KFa+PfIA=="],
 
-    "@vueuse/shared": ["@vueuse/shared@13.7.0", "", { "peerDependencies": { "vue": "^3.5.0" } }, "sha512-Wi2LpJi4UA9kM0OZ0FCZslACp92HlVNw1KPaDY6RAzvQ+J1s7seOtcOpmkfbD5aBSmMn9NvOakc8ZxMxmDXTIg=="],
+    "@vueuse/shared": ["@vueuse/shared@13.8.0", "", { "peerDependencies": { "vue": "^3.5.0" } }, "sha512-x4nfM0ykW+RmNJ4/1IzZsuLuWWrNTxlTWUiehTGI54wnOxIgI9EDdu/O5S77ac6hvQ3hk2KpOVFHaM0M796Kbw=="],
 
     "async-validator": ["async-validator@4.2.5", "", {}, "sha512-7HhHjtERjqlNbZtqNqy2rckN/SpOOlmDliet+lP7k+eKZEjPk3DgyeU9lIXLdeLz0uBbbVp+9Qdow9wJWgwwfg=="],
 
