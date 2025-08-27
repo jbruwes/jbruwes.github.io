@@ -8,15 +8,15 @@
     <el-descriptions-item :rowspan="2" :width="140" align="center">
       <template #label>
         <div class="cell-item">
-          <div class="i-line-md:image inline-block align-text-bottom size-4 mr-1"></div>Фото
+          <icon icon="line-md:image" class="inline-block align-text-bottom size-4 mr-1"></icon>Фото
         </div>
       </template>
-      <div class="i-fa-solid:user-astronaut size-24 mx-auto"></div>
+      <icon icon="fa-solid:user-astronaut" class="size-24 mx-auto"></icon>
     </el-descriptions-item>
     <el-descriptions-item>
       <template #label>
         <div class="cell-item">
-          <div class="i-line-md:account inline-block align-text-bottom size-4 mr-1"></div>Имя
+          <icon icon="line-md:account" class="inline-block align-text-bottom size-4 mr-1"></icon>Имя
         </div>
       </template>
       <el-tag>Сергей Брюсов</el-tag>
@@ -24,7 +24,7 @@
     <el-descriptions-item>
       <template #label>
         <div class="cell-item">
-          <div class="i-line-md:telegram inline-block align-text-bottom size-4 mr-1"></div>Телеграм
+          <icon icon="line-md:telegram" class="inline-block align-text-bottom size-4 mr-1"></icon>Телеграм
         </div>
       </template>
       <el-tag><el-link href="https://t.me/jbruwes" target="_blank" class="hover:no-underline" size="small">@jbruwes</el-link></el-tag>
@@ -32,7 +32,7 @@
     <el-descriptions-item>
       <template #label>
         <div class="cell-item">
-          <div class="i-line-md:map-marker-alt inline-block align-text-bottom size-4 mr-1"></div>Место на глобусе
+          <icon icon="line-md:map-marker-alt" class="inline-block align-text-bottom size-4 mr-1"></icon>Место на глобусе
         </div>
       </template>
       <el-tag>Калининград</el-tag>
@@ -40,7 +40,7 @@
     <el-descriptions-item>
       <template #label>
         <div class="cell-item">
-         <div class="i-tabler:brand-vk inline-block align-text-bottom size-4 mr-1"></div>
+         <icon icon="tabler:brand-vk" class="inline-block align-text-bottom size-4 mr-1"></icon>
           ВКонтакте
         </div>
       </template>
@@ -54,14 +54,6 @@
 <script setup lang="js">
 // импорт инджектора из vue
 import { inject } from 'vue'
-
-import {
-  Iphone,
-  Location,
-  OfficeBuilding,
-  Tickets,
-  User,
-} from '@element-plus/icons-vue'
 
 // деструктуируем id из props
 const { id } = defineProps({

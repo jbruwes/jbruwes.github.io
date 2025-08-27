@@ -4,8 +4,8 @@
     "@vueuse/core": "^13.8.0",
     "@vueuse/shared": "^13.8.0",
     "element-plus": "^2.11.1",
-    "@element-plus/icons-vue": "^2.3.2",
     "@highlightjs/cdn-assets": "^11.11.1",
-    "@highlightjs/vue-plugin": "^2.1.0"
+    "@highlightjs/vue-plugin": "^2.1.0",
+    "@iconify/vue": "^5.0.0"
   }
 }
