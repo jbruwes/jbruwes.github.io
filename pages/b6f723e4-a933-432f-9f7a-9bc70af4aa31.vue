@@ -4,8 +4,8 @@
   <!-- Описание блока исходные данные находятся в page.description -->
   <p class="text-gray-700 mb-6">{{ page.description }}</p>
 
-  <el-descriptions class="mt-12 not-prose" title="Кто я такой" :column="3" border>
-    <el-descriptions-item :rowspan="2" :width="140" align="center">
+  <el-descriptions class="mt-12 not-prose" title="Кто я такой" :column="column + 1" border>
+    <el-descriptions-item :rowspan="Number(!!column) + 1">
       <template #label>
         <div class="cell-item">
           <icon icon="line-md:image" class="inline-block align-text-bottom size-4 mr-1"></icon>Фото
@@ -53,7 +53,13 @@
 
 <script setup lang="js">
 // импорт инджектора из vue
-import { inject } from 'vue'
+import { inject, reactive, computed } from 'vue';
+
+import { breakpointsTailwind, useBreakpoints } from '@vueuse/core';
+
+const breakpoints = useBreakpoints(breakpointsTailwind);
+const smaller = reactive([breakpoints.smaller('md'), breakpoints.smallerOrEqual('lg')]);
+const column = computed(() => smaller.filter(({value})=> !value).length);
 
 // деструктуируем id из props
 const { id } = defineProps({
@@ -68,5 +74,4 @@ const pages = inject('pages');
 
 // получаем текущую страницу из ассоциативного массива pages по id
 const page = pages[id];
-
 </script>
