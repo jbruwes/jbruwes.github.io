@@ -53,12 +53,12 @@
 
 <script setup lang="js">
 // импорт инджектора из vue
-import { inject, reactive, computed } from 'vue';
+import { inject, computed } from 'vue';
 
 import { breakpointsTailwind, useBreakpoints } from '@vueuse/core';
 
 const breakpoints = useBreakpoints(breakpointsTailwind);
-const smaller = reactive([breakpoints.smaller('md'), breakpoints.smallerOrEqual('lg')]);
+const smaller = [breakpoints.smaller('md'), breakpoints.smallerOrEqual('lg')];
 const column = computed(() => smaller.filter(({value})=> !value).length);
 
 // деструктуируем id из props
