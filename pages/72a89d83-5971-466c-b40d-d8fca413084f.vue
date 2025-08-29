@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto px-4">
+    <div class="container mx-auto px-4 overflow-hidden">
         <RouterView></RouterView>
     </div>
     <el-backtop></el-backtop>
@@ -12,11 +12,13 @@ import hljs from "highlight.js/lib/core";
 import javascript from "highlight.js/lib/languages/javascript";
 import css from "highlight.js/lib/languages/css";
 import xml from "highlight.js/lib/languages/xml";
+import bash from "highlight.js/lib/languages/bash";
 import hljsVuePlugin from "@highlightjs/vue-plugin";
 import { Icon } from "@iconify/vue";
 hljs.registerLanguage("javascript", javascript);
 hljs.registerLanguage("css", css);
 hljs.registerLanguage("xml", xml);
+hljs.registerLanguage("bash", bash);
 const { appContext: { app } } = getCurrentInstance();
 app.component("Icon", Icon);
 app.use(ElementPlus);
