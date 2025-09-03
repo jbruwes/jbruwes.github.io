@@ -2,9 +2,9 @@
     <h1>{{ the.title }}</h1>
     <p>{{ the.description }}</p>
     <el-divider></el-divider>
-    <dl class="grid grid-cols-2 gap-x-4 w-fit">
+    <dl class="grid grid-cols-2 gap-x-4 w-fit not-prose">
         <dt class="font-bold text-right">Адрес репозитория:</dt>
-        <dd><a href="https://github.com/vuebro/loader-sfc-example" target="_blank">@vuebro/loader-sfc-example</a></dd>
+        <dd><a href="https://github.com/vuebro/loader-sfc-example" target="_blank" class="underline">@vuebro/loader-sfc-example</a></dd>
         <dt class="font-bold text-right">Стек технологий:</dt>
         <dd>Vue, Vite, @vuebro/loader-sfc</dd>
         <dt class="font-bold text-right">Решаемая задача:</dt>
@@ -16,7 +16,7 @@
         <li>Провести минимальные манипуляции, необходимые для динамической загрузки посредством @vuebro/loader-sfc</li>
     </ol>
     <p>Типовое приложение создается с помощью команды:</p>
-    <highlightjs language="bash" code="npm create vite@latest loader-sfc-example -- --template vue-ts" class="px-0 -mx-4"></highlightjs>
+    <highlightjs language="bash" code="npm create vite@latest loader-sfc-example -- --template vue-ts" class="pa-0 -mx-4"></highlightjs>
     <p>После создания произведены следующие действия для загрузки HelloWorld.vue без предварительной компиляции:</p>
     <ol>
         <li>Файл vue.esm-browser.prod.js скоприрован с помощью плагина <a href="https://github.com/sapphi-red/vite-plugin-static-copy" target="_blank">vite-plugin-static-copy</a>
@@ -28,7 +28,7 @@
             чтобы попадать в собранный проект в исходном виде.</li>
     </ol>
     <p>После этих небольших изменений в проект можно наконец-то изменить способ подключения SFC модуля:</p>
-    <highlightjs language="html" :code="code" class="px-0 -mx-4"></highlightjs>
+    <highlightjs language="html" :code="code" class="pa-0 -mx-4"></highlightjs>
     <p>Подробную инструкцию см. в описании репозитория <a href="https://github.com/vuebro/loader-sfc-example" target="_blank">@vuebro/loader-sfc-example</a>.</p>
 </template>
 

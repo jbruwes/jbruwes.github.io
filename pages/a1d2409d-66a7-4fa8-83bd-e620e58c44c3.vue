@@ -2,16 +2,16 @@
     <h1>{{ the.title }}</h1>
     <p>{{ the.description }}</p>
     <el-divider></el-divider>
-    <dl class="grid grid-cols-2 gap-x-4 w-fit">
+    <dl class="grid grid-cols-2 gap-x-4 w-fit not-prose">
         <dt class="font-bold text-right">Адрес репозитория:</dt>
-        <dd><a href="https://github.com/vuebro/flat-json-tree" target="_blank">@vuebro/flat-json-tree</a></dd>
+        <dd><a href="https://github.com/vuebro/flat-json-tree" target="_blank" class="underline">@vuebro/flat-json-tree</a></dd>
         <dt class="font-bold text-right">Стек технологий:</dt>
         <dd>Vue</dd>
         <dt class="font-bold text-right">Решаемая задача:</dt>
         <dd>Удобный и быстрый поиск а также манипуляции с элементами JSON дерева</dd>
     </dl>
     <p>JSON дерево представляет из себя массив объектов следующего вида (пример совершенно абстрактный):</p>
-    <highlightjs language="json" :code="code1" class="px-0 -mx-4"></highlightjs>
+    <highlightjs language="json" :code="code1" class="pa-0 -mx-4"></highlightjs>
     <p>В нём, как в матрешке сложены объекты с произвольным набором аттрибутов. Для нашего примера, условимся лишь, что
         у каждого элемента есть уникальный id и дочерние элементы записываюся в массив children.</p>
     <p>Как правило, для поиска по таким деревьям используется JSON tree traversal (обход JSON-дерева) — это процесс
@@ -25,19 +25,19 @@
             target="_blank">массивами</a>, используя стандартные методы для фильтрации, поиска, сортировки и т.д.</p>
     <p>@vuebro/flat-json-tree как раз реализует идею "сплющивания" - "JSON tree flatt" (flatten). Как результат, все
         элементы дерева выстраиваются в обычный массив. Для примера, дерево приведенное выше, будет выглядеть так:</p>
-    <highlightjs language="json" :code="code2" class="px-0 -mx-4"></highlightjs>
+    <highlightjs language="json" :code="code2" class="pa-0 -mx-4"></highlightjs>
     <p>В нем все 9 элементов выстраиваются в плоский массив, не теряя при этом своих дочерних элементов. Это позволяет
         провести быстрый поиск по массиву обычными средствами. К примеру, найдем объект с name = "1.2.6":</p>
-    <highlightjs language="javascript" :code="code3" class="px-0 -mx-4"></highlightjs>
+    <highlightjs language="javascript" :code="code3" class="pa-0 -mx-4"></highlightjs>
     <p>Но грош цена такому поиску, если невозможно определить положение найденного элемента в дереве. Поэтому,
         @vuebro/flat-json-tree для каждого элемента добавляет вычисляемые параметры, однозначно определяющие его позицию
         в JSON дереве:</p>
-    <highlightjs language="javascript" :code="code4" class="px-0 -mx-4"></highlightjs>
+    <highlightjs language="javascript" :code="code4" class="pa-0 -mx-4"></highlightjs>
     <p>Возвращаясь к нашему примеру, необходимо просто считать нужный параметр у найденного объекта. К примеру - obj.parent вычислит его родительский элемент.</p>
     <p>Результируя, приведу пример использования @vuebro/flat-json-tree:</p>
-    <highlightjs language="javascript" :code="code5" class="px-0 -mx-4"></highlightjs>
+    <highlightjs language="javascript" :code="code5" class="pa-0 -mx-4"></highlightjs>
     <p>Где композабл useFlatJsonTree возвращает:</p>
-    <highlightjs language="javascript" :code="code6" class="px-0 -mx-4"></highlightjs>
+    <highlightjs language="javascript" :code="code6" class="pa-0 -mx-4"></highlightjs>
 </template>
 
 <script setup lang="js">

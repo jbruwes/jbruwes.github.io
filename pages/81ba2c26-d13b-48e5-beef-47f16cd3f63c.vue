@@ -2,9 +2,9 @@
     <h1>{{ the.title }}</h1>
     <p>{{ the.description }}</p>
     <el-divider></el-divider>
-    <dl class="grid grid-cols-2 gap-x-4 w-fit">
+    <dl class="grid grid-cols-2 gap-x-4 w-fit not-prose">
         <dt class="font-bold text-right">Адрес репозитория:</dt>
-        <dd><a href="https://github.com/vuebro/loader-sfc" target="_blank">@vuebro/loader-sfc</a></dd>
+        <dd><a href="https://github.com/vuebro/loader-sfc" target="_blank" class="underline">@vuebro/loader-sfc</a></dd>
         <dt class="font-bold text-right">Стек технологий:</dt>
         <dd>Vue</dd>
         <dt class="font-bold text-right">Решаемая задача:</dt>
@@ -44,7 +44,7 @@
         <li>Далее ES-модуль преобразуется в Base64 и динамически импотируется из Data URL.</li>
     </ol>
     <p>Таким образом можно импортировать .vue файлы без этапа сборки даже из других SFC модулей:</p>
-    <highlightjs language="html" :code="code" class="px-0 -mx-4"></highlightjs>
+    <highlightjs language="html" :code="code" class="pa-0 -mx-4"></highlightjs>
     <p>Надо отметить, что широко известен, по крайней мере один аналог @vuebro/loader-sfc. Это vue3-sfc-loader -
         прекрасная библиотека, которая отлично выполняет свою работу. Однако она давно не обновляется, использует
         несколько устаревшие webpack и babel и тянет за собой поддержку Vue2 а также СommonJS модулей.</p>

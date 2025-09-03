@@ -2,12 +2,12 @@
     <h1>{{ the.title }}</h1>
     <p>{{ the.description }}</p>
     <el-divider></el-divider>
-    <dl class="grid grid-cols-2 gap-x-4 w-fit">
+    <dl class="grid grid-cols-2 gap-x-4 w-fit not-prose">
         <dt class="font-bold text-right">Зеркало сайта на github:</dt>
-        <dd><a href="https://jbruwes.github.io/savamed.ru" target="_blank">https://jbruwes.github.io/savamed.ru</a>
+        <dd><a href="https://jbruwes.github.io/savamed.ru" target="_blank" class="underline">https://jbruwes.github.io/savamed.ru</a>
         </dd>
         <dt class="font-bold text-right">Адрес репозитория:</dt>
-        <dd><a href="https://github.com/jbruwes/savamed.ru" target="_blank">https://github.com/jbruwes/savamed.ru</a>
+        <dd><a href="https://github.com/jbruwes/savamed.ru" target="_blank" class="underline">https://github.com/jbruwes/savamed.ru</a>
         </dd>
         <dt class="font-bold text-right">Стек технологий:</dt>
         <dd>Vue, Tailwind CSS, Element Plus, Vue I18n</dd>
