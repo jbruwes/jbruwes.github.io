@@ -4,12 +4,14 @@
     <el-divider></el-divider>
     <dl class="grid grid-cols-2 gap-x-4 w-fit not-prose">
         <dt class="font-bold text-right">Адрес репозитория:</dt>
-        <dd><a href="https://github.com/vuebro/vuebro" target="_blank"
+        <dd><a href="https://github.com/vuebro/vuebro" target="_blank" rel="noopener noreferrer"
                 class="underline">https://github.com/vuebro/vuebro</a></dd>
         <dt class="font-bold text-right">Сайт проекта:</dt>
-        <dd><a href="https://vuebro.ru" target="_blank" class="underline">https://vuebro.ru</a></dd>
+        <dd><a href="https://vuebro.ru" target="_blank" class="underline"
+                rel="noopener noreferrer">https://vuebro.ru</a></dd>
         <dt class="font-bold text-right">Веб приложение:</dt>
-        <dd><a href="https://run.vuebro.ru" target="_blank" class="underline">https://run.vuebro.ru</a></dd>
+        <dd><a href="https://run.vuebro.ru" target="_blank" class="underline"
+                rel="noopener noreferrer">https://run.vuebro.ru</a></dd>
         <dt class="font-bold text-right">Стек технологий:</dt>
         <dd>Vue</dd>
         <dt class="font-bold text-right">Решаемая задача:</dt>
@@ -34,9 +36,10 @@
         в более ранних версиях хранится то самое дерево сайта, со всей структурой и атрибутами.</p>
     <p>Важной задачей было сохранение того духа веб разработки, когда для создания сайта нужен был лишь notepad.exe,
         прямые руки и браузер. Поэтому сейчас можно <a href="https://github.com/vuebro/vuebro/releases/latest"
-            target="_blank">скачать и установить VueBro для Linux, Windows и macOS</a> или просто открыть <a
-            href="https://run.vuebro.ru">https://run.vuebro.ru</a> и начать разработку. С чего начать, хорошо описано в
-        документации: <a href="https://vuebro.ru/документация/старт/"
+            rel="noopener noreferrer" target="_blank">скачать и установить VueBro для Linux, Windows и macOS</a> или
+        просто открыть <a href="https://run.vuebro.ru" target="_blank"
+            rel="noopener noreferrer">https://run.vuebro.ru</a> и начать разработку. С чего начать, хорошо описано в
+        документации: <a href="https://vuebro.ru/документация/старт/" rel="noopener noreferrer"
             target="_blank">https://vuebro.ru/документация/старт/</a>.</p>
 </template>
 
