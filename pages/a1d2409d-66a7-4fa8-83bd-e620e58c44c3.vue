@@ -4,7 +4,7 @@
     <el-divider></el-divider>
     <dl class="grid grid-cols-2 gap-x-4 w-fit not-prose">
         <dt class="font-bold text-right">Адрес репозитория:</dt>
-        <dd><a href="https://github.com/vuebro/flat-json-tree" target="_blank" class="underline">@vuebro/flat-json-tree</a></dd>
+        <dd><a href="https://github.com/vuebro/flat-json-tree" target="_blank" class="underline">https://github.com/vuebro/flat-json-tree</a></dd>
         <dt class="font-bold text-right">Стек технологий:</dt>
         <dd>Vue</dd>
         <dt class="font-bold text-right">Решаемая задача:</dt>
@@ -43,8 +43,8 @@
 <script setup lang="js">
 import { inject } from 'vue';
 
-const { id } = defineProps(["id"]),
-    the = inject("pages")[id],
+const { pid } = defineProps(["pid"]),
+    the = inject("pages")[pid],
     code1 = `[
   {
     "id": 1,
