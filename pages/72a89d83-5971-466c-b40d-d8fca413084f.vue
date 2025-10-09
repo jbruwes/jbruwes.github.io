@@ -23,7 +23,6 @@ app.use(ElementPlus);
 app.use(hljsVuePlugin);
 </script>
 
-<style scoped>
-@import "./node_modules/element-plus/dist/index.css";
-@import "./node_modules/@highlightjs/cdn-assets/styles/stackoverflow-light.min.css";
-</style>
+
+<style src="./node_modules/element-plus/dist/index.css"></style>
+<style src="./node_modules/@highlightjs/cdn-assets/styles/stackoverflow-light.min.css"></style>
