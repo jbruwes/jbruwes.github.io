@@ -1,11 +1,11 @@
 {
   "dependencies": {
-    "@vueuse/components": "^13.9.0",
-    "@vueuse/core": "^13.9.0",
-    "@vueuse/shared": "^13.9.0",
-    "element-plus": "^2.11.2",
     "@highlightjs/cdn-assets": "^11.11.1",
     "@highlightjs/vue-plugin": "^2.1.0",
-    "@iconify/vue": "^5.0.0"
+    "@iconify/vue": "^5.0.0",
+    "@vueuse/components": "^14.0.0",
+    "@vueuse/core": "^14.0.0",
+    "@vueuse/shared": "^14.0.0",
+    "element-plus": "^2.11.7"
   }
 }

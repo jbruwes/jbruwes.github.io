@@ -53,8 +53,8 @@
 <script setup lang="js">
 import { inject } from 'vue';
 
-const { pid } = defineProps(["pid"]),
-    the = inject("pages")[pid],
+const { id } = defineProps(["id"]),
+    the = inject("pages")[id],
     code = `<script setup>
 import { defineAsyncComponent } from "vue";
 import loadModule from "@vuebro/loader-sfc";

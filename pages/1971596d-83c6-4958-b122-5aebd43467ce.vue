@@ -17,7 +17,7 @@
 import { inject } from 'vue';
 import { RouterLink } from 'vue-router';
 
-const { pid } = defineProps(["pid"]),
-    the = inject("pages")[pid],
+const { id } = defineProps(["id"]),
+    the = inject("pages")[id],
     options = { year: "numeric", month: "long", day: "numeric" };
 </script>

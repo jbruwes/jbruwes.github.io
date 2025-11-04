@@ -62,8 +62,8 @@ const smaller = [breakpoints.smaller('md'), breakpoints.smallerOrEqual('lg')];
 const column = computed(() => smaller.filter(({value})=> !value).length);
 
 // деструктуируем id из props
-const { pid } = defineProps({
-  pid: {
+const { id } = defineProps({
+  id: {
     type: String,
     required: true
   }
@@ -73,5 +73,5 @@ const { pid } = defineProps({
 const pages = inject('pages');
 
 // получаем текущую страницу из ассоциативного массива pages по id
-const page = pages[pid];
+const page = pages[id];
 </script>

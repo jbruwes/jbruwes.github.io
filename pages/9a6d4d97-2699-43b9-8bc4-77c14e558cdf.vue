@@ -25,6 +25,6 @@
 <script setup lang="js">
 import { inject } from 'vue';
 
-const { pid } = defineProps(["pid"]),
-    the = inject("pages")[pid];
+const { id } = defineProps(["id"]),
+    the = inject("pages")[id];
 </script>
